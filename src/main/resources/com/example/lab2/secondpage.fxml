@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Scene?>
+<?import javafx.stage.Stage?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab2.SecondPageController">
+    <Button text="User" fx:id="secondpagebton" layoutX="100" layoutY="100" onAction="#handleUser"/>
+    <Button text="Logout" layoutX="200" layoutY="100" onAction="#handleLogout"/>
+</AnchorPane>
